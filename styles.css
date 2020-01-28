@@ -1,0 +1,287 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#container {
+    width: 100%;
+}
+header, section {
+    padding: 10px;
+}
+
+footer {
+    padding: 20px;
+    width: 92%;
+}
+footer > p {
+    color: #ebe9df;
+    font-weight: bold;
+}
+h2 {
+    font-weight: bolder;
+}
+#a-name {
+    padding: 10px;
+    font-size: 23px;
+    font-weight: bolder;
+    margin: 0;
+    margin-top: 20px;
+    text-align: right;
+}
+#b-name {
+    font-size: 51px;
+    text-align: right;
+    background-color: white;
+    font-weight: 500;
+}
+
+#b-name > p, #t-name {
+    margin: 0;
+    padding-right: 10px;
+}
+
+#t-name {
+    font-size: 234px;
+    font-weight: 700;
+    text-align: right;
+    background-color: #e8d631;
+    border-radius: 0px 0px 15px 15px;
+    margin-top: -13px;
+}
+
+#quote {
+    font-size: x-small;
+    text-align: right;
+    line-height: 0cm;
+    padding: 15px;
+    padding-top: 0;
+    background-color: #e8e7e6;
+    border-radius: 15px 15px 0px 0px;
+}
+#card {
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+    margin-right: 10%;
+    margin-left: 5%;
+    border-radius: 15px;
+}
+#description {
+    width:50%;
+    line-height: 20px;
+    float: left;
+    font-weight: bold;
+}
+#content {
+    background-color:#ebe9df;
+    width: 100%;
+    float: left;
+}
+#navbar-list > li {
+    list-style-type: none;
+    display: inline;
+}
+.bg-color {
+    background-color: black;
+}
+.links {
+    color: #ebe9df;
+    font-weight: bold;
+}
+.button {
+    background-color: #f28d0a;
+    font-weight: bold;
+    border-radius: 10px;;
+    padding: 10px;
+    font-size: 20px; 
+}
+#c-name {
+    background-color: black;
+    color: white;
+    height: 10px;
+    width: 90px;
+    padding: 8px;
+    font-size: 14px;
+    margin-left: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+#s-script {
+    font-size: xx-small;
+}
+.button1 {
+    width: 75%;
+    border-style:none;
+}
+.button2 {
+    width: 100%;
+    border-style:none;
+}
+.link-margin {
+    margin-left: 20px;;
+}
+.spacing {
+    margin: 45px 0;
+    font-size: 20px;
+}
+#rotate {
+    transform: rotate(270deg);
+    color: #e8d631;
+    margin-left: -30px;
+    margin-top: -20px;
+    position: relative;
+    top: 136px;
+    font-size: medium;
+}
+ 
+
+
+
+/* Extra small devices (phones, 425px and down) */
+@media only screen and (max-width: 425px) {
+    #card {
+        width: 87%;  
+    }
+    #navbar-list > li {
+        width: 100%;
+        display: block;
+    }
+    .link-margin {
+        margin-left: 0;
+    }
+    #description {
+        width: 98%;
+    }
+    #rotate {
+        margin-left: -12%;
+    }
+    footer {
+        float: left;
+    }
+    .links {
+        font-size: small;
+    }
+    .button1 {
+        width: 60%;
+    }
+    .button2 {
+        width: 85%;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    #rotate {
+        margin-left: -28%;
+    }
+    #c-name {
+        width: 21%;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    #rotate {
+        margin-left: -19%;
+        font-size: small;
+        top: 104px;
+    }
+    #c-name {
+      margin-top: -10px;
+      width: 25%;
+      font-size: 10px;
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+    #quote {
+      margin-top: 10px;
+    }
+    .button {
+        padding: 5px;
+    }
+    .button2 {
+        width: 100%;
+    }
+    #a-name {
+        margin-top: 0;
+        font-size: 16px; 
+    }
+    h2 {
+        font-size: medium;
+    }
+    footer > p {
+        font-size: 15px; 
+    }
+    #b-name {
+        font-size: 40px;
+    }
+    #t-name {
+        font-size: 180px;
+}
+    .spacing {
+        font-size: 15px;
+    }
+
+
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */  
+@media only screen and (min-width: 768px) {
+    #card {
+        width: 40%;
+    }
+    #description {
+        width: 40%;
+    }
+    #t-name {
+        font-size: 200px;
+    }
+    .button1 {
+        width: 100%;
+    }
+    .button2 {
+        width: 80%;
+    }
+    #rotate {
+        margin-left: -46px;
+        top: 113px;
+        font-size: small;
+    }
+    footer {
+        clear: both;
+        margin-top: 20%;
+    }
+    #c-name {
+        width: 21%;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+  }
+  
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 1024px) {
+    #card {
+        width: 30%;
+    }
+    #description {
+        width: 50%;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    #c-name {
+        width: 25%;
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    #rotate {
+        margin-left: 84px;
+    }
+    .button1 {
+        width: 55%;
+    }
+    .button2 {
+        width: 50%;
+    }
+  }
